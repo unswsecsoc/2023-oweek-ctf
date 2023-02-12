@@ -1,0 +1,1 @@
+https://gchq.github.io/CyberChef/#recipe=To_Braille()To_Punycode(false)AES_Encrypt(%7B'option':'Hex','string':'5ec50c5ec50c5ec50c5ec50c5ec50c5'%7D,%7B'option':'Hex','string':'5ec50c5ec50c5ec50c5ec50c5ec50c5'%7D,'CBC','Raw','Hex',%7B'option':'Hex','string':''%7D)Reverse('Character')From_Hex('Auto')To_Base64('A-Za-z0-9%2B/%3D')

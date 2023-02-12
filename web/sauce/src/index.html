@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saucy Websites</title>
+
+    <style>
+        div {
+            text-align: center;
+            background-color: rgb(215, 215, 215);
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px;
+            border-radius: 10px
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Enter the password to proceed</h1>
+
+        <input id="pass">
+
+        <button onclick="submit()">Login</button>
+    </div>
+
+    <script>
+        function submit() {
+            if (pass.value === "very-secure-password") {
+                location.href = '/the-actual-flag.html';
+            } else {
+                alert('Wrong password!');
+            }
+        }
+    </script>
+</body>
+
+</html>
